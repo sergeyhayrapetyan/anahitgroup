@@ -17,7 +17,6 @@
     
     <style>
     .my_li {cursor: pointer;}
-  
     </style>
     <!-- Bootstrap Core CSS -->
     <link href="https://gitcdn.link/repo/petrlenova/anahitgroup/master/fpm/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,9 +33,7 @@
    <!--  <link href="css/portfolio.min.css" rel="stylesheet"> -->
     <link href="https://gitcdn.link/repo/petrlenova/anahitgroup/master/fpm/css/portfolio.min.css" rel="stylesheet">
     <!-- Portfolio Grid Section -->
-
     <section id="portfolio" class="bg-light-gray">
-  
     <div class="gallary animate-grid">
         <div class="container">
             <div class="row">
@@ -52,131 +49,32 @@
                             <li>
                                 <ol>
                                     <li class="my_li"><a id="myid_all" data-filter="*" class="active"  onclick="filterSelection('ALL')">All</a</li>
-                                    <li class="my_li"><a data-filter=".architecture"  onclick="filterSelection('architecture')">Architecture</a></li class="my_li">
-                                    <li class="my_li"><a data-filter=".fashion"  onclick="filterSelection('fashion')">Fashion</a></li class="my_li">
+                                    <li class="my_li"><a data-filter=".food"  onclick="filterSelection('architecture')">Architecture</a></li>
+                                    <li class="my_li"><a data-filter=".fashion"  onclick="filterSelection('fashion')">Fashion</a></li>
                                     <li class="my_li"><a data-filter=".land" onclick="filterSelection('land')">Landscape</a></li>
-                                    <li class="my_li"><a data-filter=".food" onclick="filterSelection('food')">Food</a></li class="my_li">
-                                    <li class="my_li"><a data-filter=".test" onclick="filterSelection('test')">test</a></li class="my_li">
+                                    <li class="my_li"><a data-filter=".food" onclick="filterSelection('food')">Food</a></li>
                                 </ol>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <style>
-                /* .btn-group-vertical>.btn-group:after, .btn-toolbar:after, .clearfix:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .modal-header:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
-                    clear:none;
-                }        .btn-group-vertical>.btn-group:before, .btn-toolbar:before, .clearfix:before, .container-fluid:before, .container:before, .dl-horizontal dd:before, .form-horizontal .form-group:before, .modal-footer:before, .modal-header:before, .nav:before, .navbar-collapse:before, .navbar-header:before, .navbar:before, .pager:before, .panel-body:before, .row:before {
-                    clear:none;
-                }    */
-               /*.clearfix:after {
-                    clear: none;
-                } */
-
-
-                    </style>
-            <div class="row gallary-thumbs" style="display: table;">
-                <div class="col-md-3 col-sm-1 portfolio-item architecture">
+            <div class="row gallary-thumbs">
+                <div class="col-md-4 col-sm-6 portfolio-item food">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-search-plus"></i>
                             </div>
                         </div>
-                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/architecture1.jpg?raw=true" class="img-responsive" alt="">
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/food1.jpg?raw=true" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4> San Francisco</h4>
-                        <p class="text-muted">Architecture</p>
+                        <h4>Salad</h4>
+                        <p class="text-muted">Food</p>
                     </div>
                 </div> 
-
-                 <div class="col-md-3 col-sm-1 portfolio-item test">
-                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal1">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus"></i>
-                            </div>
-                        </div>
-                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/architecture1.jpg?raw=true" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4> testo</h4>
-                        <p class="text-muted">test</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-1 portfolio-item fashion">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus"></i>
-                            </div>
-                        </div>
-                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/fashion1.jpg?raw=true" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Winter</h4>
-                        <p class="text-muted">Fashion</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-1 portfolio-item land">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus"></i>
-                            </div>
-                        </div>
-                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/land1.jpg?raw=true" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Lands</h4>
-                        <p class="text-muted">Landscape</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-1 portfolio-item architecture">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus"></i>
-                            </div>
-                        </div>
-                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/architecture1.jpg?raw=true" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4> San Francisco4</h4>
-                        <p class="text-muted">Architecture4</p>
-                    </div>
-                </div> 
-                <!--  <div class="clearfix visible-md visible-lg"></div>    -->
-                <div class="col-md-3 col-sm-1 portfolio-item architecture">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus"></i>
-                            </div>
-                        </div>
-                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/architecture2.jpg?raw=true" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Venice</h4>
-                        <p class="text-muted">Architecture</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-1 portfolio-item fashion">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus"></i>
-                            </div>
-                        </div>
-                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/fashion2.jpg?raw=true" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Autumn</h4>
-                        <p class="text-muted">Fashion</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-1 portfolio-item food">
+                <div class="col-md-4 col-sm-6 portfolio-item food">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -190,8 +88,36 @@
                         <p class="text-muted">Food</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-1 portfolio-item architecture">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <div class="col-md-4 col-sm-6 portfolio-item food">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/food1.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Salad</h4>
+                        <p class="text-muted">Food</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item food">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/food1.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Salad</h4>
+                        <p class="text-muted">Food</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item architecture">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-search-plus"></i>
@@ -200,11 +126,148 @@
                         <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/architecture1.jpg?raw=true" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4> San Francisco5</h4>
-                        <p class="text-muted">Architecture5</p>
+                        <h4> San Francisco</h4>
+                        <p class="text-muted">Tour</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item fashion">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/fashion1.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Winter</h4>
+                        <p class="text-muted">Fashion</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item land">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/land1.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Lands</h4>
+                        <p class="text-muted">Landscape</p>
+                    </div>
+                </div>
+               <!--  <div class="clearfix visible-md visible-lg"></div> -->
+                <div class="col-md-4 col-sm-6 portfolio-item architecture">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/architecture2.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Venice</h4>
+                        <p class="text-muted">Tour</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item food">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/food1.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Salad</h4>
+                        <p class="text-muted">Food</p>
                     </div>
                 </div> 
-                <div class="col-md-3 col-sm-1 portfolio-item land">
+                <div class="col-md-4 col-sm-6 portfolio-item fashion">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/fashion2.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Autumn</h4>
+                        <p class="text-muted">Fashion</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item food">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/food1.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Salad</h4>
+                        <p class="text-muted">Food</p>
+                    </div>
+                </div>  <div class="col-md-4 col-sm-6 portfolio-item food">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/food1.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Salad</h4>
+                        <p class="text-muted">Food</p>
+                    </div>
+                </div>  <div class="col-md-4 col-sm-6 portfolio-item food">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/food1.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Salad</h4>
+                        <p class="text-muted">Food</p>
+                    </div>
+                </div>  <div class="col-md-4 col-sm-6 portfolio-item food">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/food1.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Salad</h4>
+                        <p class="text-muted">Food</p>
+                    </div>
+                </div>  <div class="col-md-4 col-sm-6 portfolio-item food">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/food1.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Salad</h4>
+                        <p class="text-muted">Food</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item land">
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -218,7 +281,21 @@
                         <p class="text-muted">Landscape</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-1 portfolio-item fashion">
+                <div class="col-md-4 col-sm-6 portfolio-item food">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/food1.jpg?raw=true" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Salad</h4>
+                        <p class="text-muted">Food</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item fashion">
                     <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -232,21 +309,7 @@
                         <p class="text-muted">Fashion</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-1 portfolio-item architecture">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus"></i>
-                            </div>
-                        </div>
-                        <img src="https://raw.githubusercontent.com/petrlenova/anahitgroup/master/fpm/img/architecture1.jpg?raw=true" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4> San Francisco3</h4>
-                        <p class="text-muted">Architecture3</p>
-                    </div>
-                </div> 
-                <div class="col-md-3 col-sm-1 portfolio-item food">
+                <div class="col-md-4 col-sm-6 portfolio-item food">
                     <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -533,23 +596,7 @@
             </div>
         </div>
     </div>
-    <script>
-/*         function myFunction(x) {
-          if (x.matches) { // If media query matches
-            document.body.style.backgroundColor = "yellow";alert("x");
-          } else {
-            var y = document.getElementsByClassName("col-lg-8");
-          
-             for(var i=0; i<y.length;i++){
-                   y[i].style.width = "50%";
-               }    alert(y.length);
-          }
-        }
-        
-        var x = window.matchMedia("(max-width: 992px)")
-        myFunction(x)
-        x.addListener(myFunction)  */
-        </script>
+
     <script>
         function filterSelection(c) {
                var x = document.getElementsByClassName(c);
@@ -565,14 +612,7 @@
                    y[i].style.display = "none";
                }  
                for(var i=0; i<x.length;i++){
-                var display = window.matchMedia("(max-width: 992px)");
-               // alert(display.matches);
-              /*    if(!display.matches && x.length==4)  x[i].style.width = "33%";
-                 if(!display.matches && x.length==3)  x[i].style.width = "33%";
-                 if(!display.matches && x.length==2)  x[i].style.width = "50%";
-                 if(!display.matches && x.length==1)  x[i].style.width = "100%";
                    x[i].style.display = "block";
-                   if(i==4) x[i].style.cssFloat = "left"; */
                }
    /*  for(var i=0; i<x.length;i++){
     if (x[i].style.display === "none") {
